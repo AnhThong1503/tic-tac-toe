@@ -1,50 +1,62 @@
-# React + TypeScript + Vite
+# 🎮 Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Project Overview
+Welcome to the **Tic-Tac-Toe Game**! This is a simple yet fun two-player game built using **ReactJS** and **TypeScript**. The game keeps track of player scores and allows easy restarting. Enjoy the challenge! 🏆
 
-Currently, two official plugins are available:
+## 🔹 Short Description
+A classic **Tic-Tac-Toe** game for two players, built with **React and TypeScript**. The game tracks scores, announces winners, and provides a responsive, user-friendly interface. Play, restart, and keep track of your victories! 🎲🏁
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+✅ **3x3 Grid:** Classic Tic-Tac-Toe gameplay 🎲  
+✅ **Two Human Players:** Play against a friend 👥  
+✅ **Win or Draw Detection:** Alerts when a player wins or if it's a tie 🏁  
+✅ **Game Restart:** Reset the game anytime 🔄  
+✅ **Score History:** Keep track of who wins the most! 📊  
+✅ **Responsive Design:** Enjoy the game on any device 📱💻  
+✅ **TypeScript Support:** Ensuring type safety and better code maintenance ✨  
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
+### 🛠️ Prerequisites
+Make sure you have the following installed:
+- **Node.js** (>= 22.x)
+- **npm** or **yarn**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 📥 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/AnhThong1503/tic-tac-toe.git
+   cd tic-tac-toe
+   ```
+2. Install dependencies:
+   ```sh
+   npm install   # or yarn install
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+### ▶️ Running the App
+To start the development server, run:
+```sh
+npm start  # or yarn start
+```
+The game will be available at **http://localhost:5173/tic-tac-toe** 🌍
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 📦 Building for Production
+To create an optimized production build:
+```sh
+npm run build  # or yarn build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🎥 Demo
+👉 [Live Demo](https://anhthong1503.github.io/tic-tac-toe/)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🏗️ Technologies Used
+- ⚛ **ReactJS** - Front-end framework
+- 🟦 **TypeScript** - Type safety & maintainability
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📜 License
+This project is **MIT Licensed**. Feel free to use and modify as needed. ✅
+
+## 📧 Contact
+For any questions or feedback, reach out:
+📩 Email: truonghuynhanhthong@gmail.com 
+🐙 GitHub: [Your GitHub](https://github.com/AnhThong1503)  
+
